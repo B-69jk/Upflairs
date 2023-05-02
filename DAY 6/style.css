@@ -1,0 +1,70 @@
+:root {
+  --primaryColor: #77037b;
+  --backgroundColor: #f9e2af;
+  --titleColor: #210062;
+  --myTitleFont: "Dancing Scipt", curive;
+  --defaultTextFont: "Lato", sans-serif;
+  --fontdefaultHeading: "Montserrat", sans-serif;
+}
+
+body {
+    margin: 0px;
+    color: var(--primaryColor);
+}
+
+
+
+
+.top-section {
+  color: var(--primaryColor);
+  background-color: var(--backgroundColor);
+  height: 500px;
+  text-align: center;
+}
+
+.heading-group {
+  display: inline-block;
+  margin: 100px;
+}
+
+.heading {
+  color: var(--titleColor);
+  font-family: var(--myTitleFont);
+  margin: 0;
+}
+
+.bio {
+  font-family: var(--fontdefaultHeading);
+  margin: 0;
+  font-size: 0.75em; /* 1em = 16px */
+  padding-bottom: 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  margin-block-start: 120px;
+  margin-left: 210px;
+  width: 120px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  margin-block-start: 50px;
+  margin-left: 650px;
+  width: 120px;
+}
+
+.mountain {
+  width: 750px;
+  height: 400px;
+}
+
+.cld1{
+    position: absolute;
+}
+
+/* 
+font-family: 'Dancing Script', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/

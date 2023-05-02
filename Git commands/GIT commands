@@ -1,0 +1,39 @@
+# Intialize git respository 
+git Init 
+
+#Check the status of the files
+git status
+
+# configuration of email and username
+git config user.name "your username"
+git config user.email "your email"
+
+#stagging the files
+git and filename, filename2
+#or
+git add
+
+# One-time step (adding remote to your git)
+git remote add origions "http://url_of_your_git_respo.git"
+
+#Commit the changes (important)
+git Commit -m "any message starting what this commit is"
+
+# Choose branch 
+git checkout master
+#or
+git checkout -b nayi_branch
+
+#push the changes to your branch
+git push origion nayi_branch
+
+#########
+#Pull the contest from other branch
+git pull origion master
+
+#merge the changes in current branch
+git merge
+
+#########
+# fetch all the tree structure from remote
+git fetch
