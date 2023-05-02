@@ -16,8 +16,7 @@ p {
 .first_para {
   color: red;
 }
-
-.red_apple {
+.green_apple{
   background-color: green;
   position: sticky;
   top: 500px;
