@@ -1,0 +1,64 @@
+body{
+    background-color: aliceblue;
+    text-align: center;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* height: 1500px; */
+    column-gap: 30px;
+    row-gap: 10px;
+    column-gap: 30px;
+}
+
+.BOX{
+    height: 100px;
+    width: 100px;
+}
+
+.RED{
+    background-color: red;
+}
+
+.GREEN{
+    background-color: green;
+    width: 300px;
+}
+
+.BLUE{
+    background-color: blue;
+    height: 280px;
+    flex-grow: 3;
+}
+
+.ORANGE{
+    background-color: orange;
+    order: 1;
+}
+
+.BROWN{
+    background-color: brown;
+    order: 4;
+}
+
+.MAGNETA{
+    background-color: magenta;
+    order: 3;
+}
+
+.CYAN{
+    background-color: cyan;
+    order: 2;
+}
+.BLACK{
+    background-color: black;
+}
+
+.TEAL{
+    background-color: teal;
+}

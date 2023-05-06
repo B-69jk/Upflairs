@@ -1,0 +1,107 @@
+body{
+    background-color: deepskyblue;
+    text-align: center;
+    color: black;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    display: inline;
+}
+.RED{
+    background-color: red;
+}
+
+.GREEN{
+    background-color: green;
+}
+
+.BLUE{
+    background-color: blue;
+}
+
+.ORANGE{
+    background-color: orange;
+}
+
+.BROWN{
+    background-color: brown;
+}
+
+.MAGNETA{
+    background-color: magenta;
+}
+
+.CYAN{
+    background-color: cyan;
+}
+.BLACK{
+    background-color: black;
+}
+
+.TEAL{
+    background-color: teal;
+}
+@media screen and (min-width:700px) and (max-width:900px){
+    body{
+        background-color: gold;
+    }
+    
+} 
+ @media screen and (max-width:500px) {
+    div{
+        display: block;
+    }
+ }
+ @media screen and (min-width:320px){
+    .RED{
+        background-color: rosybrown;
+    }
+} 
+@media screen and (min-width:480px){
+    .RED{
+        background-color: beige;
+    }
+}
+@media screen and (min-width:769px){
+    .RED{
+        background-color: cadetblue;
+    }
+}
+@media screen and (min-width:1025px){
+    .RED{
+        background-color: darkblue;
+    }
+}   
+@media screen and (min-width:1201px){
+    .RED{
+        background-color: firebrick;
+    }
+} 
+@media screen and (prefers-color-scheme:dark){
+    body{
+        background-color: purple;
+    }
+    
+}
+@media screen and (orientation:landscape) {
+    body{
+        background-color: olive;
+    }
+    
+}
+@media screen and (orientation:portrait) {
+    body{
+        background-color: goldenrod;
+    }
+    
+}
+ /* media queries humesha last mai lagti hai 
+ mobile device 320px-480px
+ ipads table 480px-768px
+ small sc lap 769px-1024px
+ desktop large sc 1025-1200px
+ extra large sc tv 1201px-1200px*/
