@@ -11,8 +11,9 @@ body {
 }
 .cont {
   background-color: aliceblue;
-  height: 700px;
-  width: 240px;
+  height:auto;
+  width: auto;
+  padding: 20px;
   /* font-size: 29px; */
   /* font-style: italic; */
   border-radius: 11px;
@@ -32,8 +33,7 @@ body {
   color: #ffd3a3;
 }
 
-.prize {
-}
+
 
 .a {
   text-align: center;
@@ -44,27 +44,28 @@ body {
 
 .b {
   font-size: 66px;
-  padding-left: 22px;
+  /* position: absolute; */
+  /* display: inline-block; */
 }
 .c {
   display: flex;
   position: absolute;
   font-size: 34px;
-  margin-left: 65px;
+  margin-left: 52px;
   margin-top: 5px;
-  /* position: relat7ive; */
   color: #b6eafa;
 }
 
 .d {
+  margin-left: 165px;
   position: absolute;
-  margin-left: 150px;
-  margin-top: 50px;
+  margin-top: 52px;
 }
 .bc {
-  display: grid;
   font-family: "Roboto";
+  display: inline;
   color: #b6eafa;
+  padding-top: 10px;
 }
 
 .but {
@@ -99,11 +100,11 @@ li {
   text-align: left;
 }
 .tick {
-  width: 14px;
+  width: 22px;
   color: green;
 }
 .no {
-  width: 14px;
+  width: 22px;
   color: red;
 }
 .ef {
@@ -112,7 +113,8 @@ li {
 
 .cont1 {
   background-color: aliceblue;
-  height: 700px;
-  width: 240px;
+  height: auto;
+  width: auto;
+  padding: 20px;
   border-radius: 11px;
 }
