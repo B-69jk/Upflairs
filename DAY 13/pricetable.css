@@ -1,46 +1,118 @@
 body {
-  background-color: cyan;
+  background-color: #ff55bb;
   text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
 }
 
-
-.main{
-    display: flex;
-    column-gap: 40px;
+.main {
+  display: flex;
+  column-gap: 40px;
+  padding: 42px;
 }
 .cont {
   background-color: aliceblue;
-  height: 500px;
+  height: 700px;
+  width: 240px;
+  /* font-size: 29px; */
+  /* font-style: italic; */
+  border-radius: 11px;
+}
+
+.head {
+  text-transform: uppercase;
+  border-bottom: 1px solid;
+  /* box-shadow: 0px 5px 5px black; */
+  margin-top: 0px;
+  padding: 30px;
+  border-radius: 11px 11px 0px 0px;
+  font-size: 26px;
+}
+
+.hd_na {
+  color: #ffd3a3;
+}
+
+.prize {
+}
+
+.a {
+  text-align: center;
+  font-size: 22px;
+  padding: 20px;
+  color: #b6eafa;
+}
+
+.b {
+  font-size: 66px;
+  padding-left: 22px;
+}
+.c {
+  display: flex;
+  position: absolute;
+  font-size: 34px;
+  margin-left: 65px;
+  margin-top: 5px;
+  /* position: relat7ive; */
+  color: #b6eafa;
+}
+
+.d {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.bc {
+  display: grid;
+  font-family: "Roboto";
+  color: #b6eafa;
+}
+
+.but {
+  padding: 20px;
+  /* width: 170px; */
+}
+
+button {
   width: 200px;
-  font-size: 29px;
-  font-style: italic;
+  height: 49px;
+  background-color: #ffd95a;
+  border-radius: 4px;
 }
 
-.prize{
-    width: 100px;
-    height: 100px;
-    font-style: normal;
-    font-size: 32px;
-    display: inline;
+button:hover {
+  background-color: #c07f00;
+  box-shadow: 10px 10px 5px #aaaaaaaa;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #ffd95a;
+}
+li {
+  padding-left: 20px;
+  padding-bottom: 11px;
+  text-align: left;
+}
+.tick {
+  width: 14px;
+  color: green;
+}
+.no {
+  width: 14px;
+  color: red;
+}
+.ef {
+  color: #4a4a4a80;
+}
 
 .cont1 {
   background-color: aliceblue;
-  height: 500px;
-  width: 200px;
-  
+  height: 700px;
+  width: 240px;
+  border-radius: 11px;
 }
-.cont3 {
-  background-color: aliceblue;
-  height: 500px;
-  width: 200px;
-}
-.cont4 {
-  background-color: aliceblue;
-  height: 500px;
-  width: 200px;
-}
-
-
