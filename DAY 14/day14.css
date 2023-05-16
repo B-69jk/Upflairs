@@ -1,0 +1,86 @@
+.element {
+  background-color: aqua;
+  width: 250px;
+  height: 250px;
+  border: black solid 1px;
+  animation: pulse 5s infinite;
+}
+
+.elt {
+  background-color: red;
+  width: 250px;
+  height: 250px;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  border: black solid 1px;
+  margin-left: 100px;
+  /* animation: pep 5s infinite; */
+}
+
+.elt:hover {
+  animation: pep 5s infinite;
+}
+@keyframes pep {
+  0% {
+    transform: scale(0.3);
+    background-color: red;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: yellow;
+  }
+}
+
+.element:hover {
+  animation: resize 5s infinite;
+}
+
+@keyframes resize {
+  0%,
+  100% {
+    transform: scale(1);
+    background-color: aqua;
+  }
+  50% {
+    transform: scale(0.25);
+    background-color: cornflowerblue;
+  }
+
+  25% {
+    transform: rotate(50deg);
+    background-color: greenyellow;
+  }
+}
+
+.box {
+  background-color: red;
+  border-radius: 100px;
+  margin: 0;
+  width: 200px;
+  height: 200px;
+  animation-name: moveDown;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+@keyframes moveDown {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50%{
+    transform: translate(500px, 700px);
+  }
+  100%{
+    transform: translate(900px, 0px);
+  }
+}
